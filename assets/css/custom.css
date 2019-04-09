@@ -1,0 +1,134 @@
+#me-pic {
+  height: 300px;
+  width: auto;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+#hello-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#hello {
+  max-width: 500px;
+  text-align: center;
+  color: white;
+}
+
+.technologies {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.icon-container {
+  overflow: auto;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+  margin-bottom: 20px;
+}
+
+.tech-icon {
+  width: 150px;
+  height: 150px;
+  background: black;
+}
+
+.tech-name {
+  padding: 3px 0;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+#four {
+  padding-top: 30px;
+}
+
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.bg-section {
+  flex: 1;
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+.school {
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.prof-link {
+  font-size: 50px;
+  color:  #9c9c9c;
+}
+
+.prof-link:hover {
+  color:  white;
+}
+
+.prof-link2 {
+  font-size: 22px;
+}
+
+.prof-link2:hover {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.who-links {
+  list-style-type: none;
+}
+
+.dog-pic {
+  width: 200px;
+  height: auto;
+}
+
+.resume-button {
+  border: 1px solid #9c9c9c;
+  color: #9c9c9c;
+  position: relative;
+  bottom: 10px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+.resume-button:hover {
+  border: 1px solid white;
+  color: white;
+}
+
+#download-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#dl-resume {
+  padding: 0;
+}
+
+#msg-text {
+  resize: none;
+}
+
+@media screen and (max-width: 736px) {
+
+  .bg-container {
+    flex-direction: column;
+    justify-content:  flex-start;
+    align-items: center;
+  }
+
+}
